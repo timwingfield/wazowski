@@ -1,0 +1,9 @@
+{
+  "name": "wazowski",
+  "version": "1.0.0",
+  "description": "neopixel status light project for entertainment purposes only",
+  "main": "index.js",
+  "repository": "http://www.github.com/timwingfield/wazowski",
+  "author": "Tim Wingfield",
+  "license": "MIT"
+}
