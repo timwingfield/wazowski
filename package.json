@@ -14,5 +14,8 @@
     "mocha": "^5.2.0",
     "proxyquire": "^2.0.1",
     "sinon": "^6.0.0"
+  },
+  "dependencies": {
+    "neopixel-utils": "^1.0.2"
   }
 }

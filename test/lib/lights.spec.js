@@ -1,4 +1,7 @@
+let proxyquire = require('proxyquire')
+let neopixel = proxyquire('neopixel', { })
 let lights = require("../../lib/lights")
+
 let subject, result = null
 
 describe("lights", () => {
