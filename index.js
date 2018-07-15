@@ -1,9 +1,19 @@
-// maybe this goes here? We'll see...
-let neopixel = require("neopixel");
-let strip = require("./lib/strip").Strip(8);
-//let lights = require("./lib/lights").Lights;
+const wifi = require('Wifi');
 
-function test() {
-  strip.setPixelColor(0, [0,25,0]);
-  neopixel.write(B5, strip.buffer);
+function connect() {
+  console.log("connecting to wifi...");
+  wifi.connect("endor", {password: "J@keV0r@cek"}, (ap) => {
+    console.log("connected: ", ap);
+  });
+
+  wifi.stopAP();
+
+  return "Not undefined";
+}
+
+function myIp() {
+  wifi.getIP((err, ipinfo) => {
+    console.log("error: ", err);
+    console.log("ip info: ", ipinfo);
+  });
 }
