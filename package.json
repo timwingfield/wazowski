@@ -1,5 +1,6 @@
 {
   "name": "wazowski",
+  "sideEffect": false,
   "version": "1.0.0",
   "description": "neopixel status light project for entertainment purposes only",
   "main": "index.js",

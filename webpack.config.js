@@ -3,10 +3,10 @@ const webpack = require('webpack');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
-  entry: ['./src/promise-fix.js', './src/entry.js'],
+  entry: ['./src/promise-fix.js', './src/app.js'],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'entry.bundle.js',
+    filename: 'wazowski.bundle.js',
   },
   module: {
     rules: [
