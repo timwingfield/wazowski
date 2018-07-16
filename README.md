@@ -17,4 +17,4 @@ const env = {
 
 export default env;
 ```
-`yarn build`
+`yarn build` or `npm build` - your choice
