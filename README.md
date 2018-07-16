@@ -8,4 +8,13 @@ A project to upload modularized code to an Espurino ESP8266. The goal being to a
 4. Sample data being fetched from restcountries.eu 
 
 ### To Build
+Create an `env.js` file in the root that looks like:
+```
+const env = {
+  ssid: "[your wifi ssid]",
+  password: "[your wifi password]",
+};
+
+export default env;
+```
 `yarn build`
